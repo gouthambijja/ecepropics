@@ -29,6 +29,6 @@ app.post("/pro", (req, res) => {
 app.get("/", (req, res) => {
   res.render("propic");
 });
-app.listen(port || 3000, () => {
+app.listen(port, () => {
   console.log("server on");
 });
