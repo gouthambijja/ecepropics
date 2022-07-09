@@ -2,4 +2,4 @@ const x=document.querySelector(".alerts");
 function hide(){
   x.style.display="none";
 }
-setTimeout(hide,3000);
+setTimeout(hide,10000);
