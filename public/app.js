@@ -1,4 +1,4 @@
-const x=document.querySelector(".alert");
+const x=document.querySelector(".alerts");
 function hide(){
   x.style.display="none";
 }
