@@ -10,7 +10,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-.alert{
+.alerts{
   position:absolute;
 }
 main {
