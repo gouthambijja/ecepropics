@@ -4,7 +4,7 @@ body {
   background-size: cover;
   color: white;
   font-size: large;
-  width: 100%;
+  width: 100vw;
   height: 90vh;
   display: flex;
   justify-content: space-evenly;
