@@ -6,7 +6,7 @@ app.set("view engine", "ejs");
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + "/public"));
 app.post("/pro", (req, res) => {
-  let code = 3791;
+  let code = 3791;//temp
   let s = req.body.code;
   s = s.toUpperCase();
   if (s[0] >= "0" && s[0] <= "9") {
