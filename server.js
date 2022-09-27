@@ -10,6 +10,7 @@ app.post("/pro", (req, res) => {
   let code = 3791;
   let s = req.body.code;
   s = s.toUpperCase();
+  //jbgfy
   if (s[0] >= "0" && s[0] <= "9") {
     code = code + parseInt(s);
   } else {
